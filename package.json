@@ -1,0 +1,26 @@
+{
+  "name": "recuperacao-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kamanskigabriel/Recuperacao-backend#readme",
+  "bugs": {
+    "url": "https://github.com/kamanskigabriel/Recuperacao-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamanskigabriel/Recuperacao-backend.git"
+  },
+  "license": "ISC",
+  "author": "Gabriel Kamanski",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {}
+}
