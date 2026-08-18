@@ -6,6 +6,8 @@ const router = express.Router()
 router.get("/somar", (req, res) => {
     const { num1, num2} = req.body
     const resultado = Number(num1) + Number(num2)
+
+    res.status(200).send({ message: resultado})
 })
 //--------------------------------------------------
 router.post("/diminuir", (req, res) => {
@@ -25,7 +27,7 @@ router.post("/multiplicar", (req, res) => {
 //--------------------------------------------------
 router.post("/potencia", (req, res) => {
     const { num1, num2} = req.body
-    const resultado = Number(num1) * Number(num1)
+    const resultado = Number(num1) ** Number(num1)
 
     
 })
